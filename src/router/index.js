@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 const Map = resolve => require(['@/components/Map.vue'], resolve)
-const Project = resolve => require(['@/components/Project.vue'], resolve)
-const Contact = resolve => require(['@/components/Contact.vue'], resolve)
+const Google = resolve => require(['@/components/google.vue'], resolve)
 
 Vue.use(Router)
 
@@ -14,14 +13,9 @@ export default new Router({
       component: Map
     },
     {
-      path: '/project',
-      name: 'Project',
-      component: Project
-    },
-    {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact
+      path: '/google',
+      name: 'Google',
+      component: Google
     }
   ]
 })

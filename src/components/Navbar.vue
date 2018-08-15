@@ -3,24 +3,14 @@
  <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left">
     <li><a href="/#/"><img class="uk-width-1-3@s" src="@/assets/dr_logo.svg"></a></li>
-    <span style="padding:10px"> <p id='clock'>time</p></span>
+    <div style="margin: 10px">
+    <span> <p id='clock'>time</p></span>
+    <span> <p id='date'>date</p></span>
+  </div>
     </div>
-     
+
     <div class="uk-navbar-right">
 
-        <ul class="uk-navbar-nav">
-            <li>
-                
-                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" style="color:#6621ca;"></a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="/#/">Main</a></li>
-                        <li><a href="/#/project">The project</a></li>
-                        <li><a href="/#/contact">Contact</a></li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
 
     </div>
 
@@ -29,6 +19,13 @@
 </template>
 
 <script>
+const date = document.getElementById('date');
+    setInterval(() => {
+      const now = moment();
+      const humanRead = now.format('dddd, MMMM DD YYYY');
+      document.getElementById("date").textContent = humanRead;
+    }, 1000);
+
 const clock = document.getElementById('clock');
     setInterval(() => {
       const now = moment();
@@ -39,17 +36,26 @@ const clock = document.getElementById('clock');
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+element {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 body {
   background: black;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: #000000;
-}  
+}
 img {
     width: 80px;
     height: 50px;
 }
 #clock {
+    text-align: left;
+    margin-bottom: 0px;
+    color: white;
+}
+#date {
     margin-bottom: 0px;
     color: white;
 }

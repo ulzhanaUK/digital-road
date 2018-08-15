@@ -2,7 +2,7 @@
 <div>
 <Navbar />
 <div class="columns row">
-  <div class="column" style="width:27%; float: left;">  
+  <div class="column" style="width:25%; float: left;">
   <vk-sticky><div class="scroll">
     <table style="width:100%">
 <tr>
@@ -10,24 +10,24 @@
   </tr>
   <tr>
     <th rowspan="2">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>УРОВЕНЬ</small></h5>
+    <h5><small>УРОВЕНЬ</small></h5>
     <h6 style="color: green; font-family: PF Din Text Cond Pro Thin;"><small>СРЕДНЯЯ ЯМА</small></h6>
     <h1 style="color: white; font-family: PF Din Text Cond Pro Thin;"><big>{{level}}</big></h1>
     </th>
     <td style="color: #6621ca;">
-    <a><h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ШИРИНА</small></h5>
+    <a><h5><small>ШИРИНА</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>СМ</small></h6></a>
     <h3 style="color: white;">{{width}}</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ДЛИНА</small></h5>
+    <h5><small>ДЛИНА</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>СМ</small></h6>
     <h3 style="color: white; ">{{length}}</h3>
     </td>
   </tr>
   <tr>
     <td colspan="2" style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ОБЪЕМ</small></h5>
+    <h5><small>ОБЪЕМ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>СМ3</small></h6>
     <h3 style="color: white;">{{volume}}</h3>
     </td>
@@ -37,29 +37,29 @@
   </tr>
   <tr>
     <th rowspan="2" style="color: #6621ca;">
-    <a><h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ОБЩАЯ СУММА</small></h5>
+    <a><h5><small>ОБЩАЯ СУММА</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6></a>
     <h3 style="color: white;">{{money}}</h3>
     </th>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ШЕБЕНЬ</small></h5>
+    <h5><small>ШЕБЕНЬ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{shiben}}</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ПЕСОК</small></h5>
+    <h5><small>ПЕСОК</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{sand}}</h3>
     </td>
   </tr>
   <tr>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>БИТУМ</small></h5>
+    <h5><small>БИТУМ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{bitumen}}</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ЛЮДИ</small></h5>
+    <h5><small>ЛЮДИ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{human}}</h3>
     </td>
@@ -74,26 +74,31 @@
   <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Количество ям</td>
   </tr uk-cover>
 <tr>
-    <th rowspan="2" style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ВСЕГО В ГОРОДЕ</small></h5>
+    <th rowspan="2">
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>ВСЕГО В ГОРОДЕ</small></h5>
     <h3 style="color: white;">167</h3>
     </th>
-    <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>АЛМАТЫ</small></h5>
+    <td>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>АЛМАТЫ</small></h5>
     <h3 style="color: white;">34</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>САРЫАРКА</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>САРЫАРКА</small></h5>
     <h3 style="color: white;">86</h3>
     </td>
   </tr uk-cover>
   <tr>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ЕСИЛЬ</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>ЕСИЛЬ</small></h5>
     <h3 style="color: white;">40</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>БАЙКОНЫР</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>БАЙКОНЫР</small></h5>
     <h3 style="color: white;">7</h3>
     </td>
   </tr uk-cover>
@@ -106,25 +111,30 @@
   </tr uk-cover>
   <tr>
     <th rowspan="2" style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ВСЕееее В ГОРОДЕ</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>ВСЕееее В ГОРОДЕ</small></h5>
     <h3 style="color: white;">167</h3>
     </th>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>АЛМАТЫ</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>АЛМАТЫ</small></h5>
     <h3 style="color: white;">34</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>САРЫАРКА</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>САРЫАРКА</small></h5>
     <h3 style="color: white;">86</h3>
     </td>
   </tr uk-cover>
   <tr>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ЕСИЛЬ</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>ЕСИЛЬ</small></h5>
     <h3 style="color: white;">40</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>БАЙКОНЫР</small></h5>
+    <h5 style="color: #f1a213;
+    font-family: PF Din Text Cond Pro;"><small>БАЙКОНЫР</small></h5>
     <h3 style="color: white;">7</h3>
     </td>
   </tr uk-cover>
@@ -141,33 +151,33 @@
   </tr>
   <tr>
     <th rowspan="2" style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ВРЕМЯ В ПУТИ</small></h5>
+    <h5><small>ВРЕМЯ В ПУТИ</small></h5>
     <h3 style="color: white;">05:32</h3>
     </th>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ДИСТАНЦИЯ</small></h5>
+    <h5><small>ДИСТАНЦИЯ</small></h5>
     <h3 style="color: white;">130</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ЗАРЯД БАТАРЕИ</small></h5>
+    <h5><small>ЗАРЯД БАТАРЕИ</small></h5>
     <h3 style="color: white;">99%</h3>
     </td>
   </tr>
   <tr>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>БЕНЗИН</small></h5>
+    <h5><small>БЕНЗИН</small></h5>
     <h3 style="color: white;">27</h3>
     </td>
     <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ДАТЧИК</small></h5>
+    <h5><small>ДАТЧИК</small></h5>
     <h3 style="color: white;">40</h3>
     </td>
-    
+
   </tr>
 </table>
 </div></vk-sticky>
   </div>
-  <div class="column" style="width:73%; float:right">
+  <div class="column" style="width:75%; float:right">
 <div id="map" style="width: 100%; height: 570px"></div>
 </div>
 
@@ -176,8 +186,8 @@
 <div class="uk-offcanvas-content">
 <!-- This is the button toggling the off-canvas sidebar -->
 <button class="uk-button uk-button-default uk-margin-small-right" type="button" style="color:#6621ca" uk-toggle="target: #offcanvas-push">Посмотреть ямы</button>
- 
-<!-- or create a new date from 'now' 
+
+<!-- or create a new date from 'now'
 <span>{{ new Date() | moment("dddd, MMMM Do YYYY, h:mm:ss a") }}</span>
 <span>{{ new Date() | moment("calendar", "July 10 2011") }}</span>-->
 
@@ -190,10 +200,10 @@
 
     <ul uk-accordion="multiple: true">
     <li class="uk-open">
-        <a class="uk-accordion-title" href="#" style="color: #6621ca; font-family: PF Din Text Cond Pro;">Яма 1</a>
+        <a class="uk-accordion-title" href="#" style="color: #f1a213; font-family: PF Din Text Cond Pro;">Яма 1</a>
         <div class="uk-accordion-content">
           <img src="../assets/pit1.jpg">
-          <h6 style="color: #6621ca; font-family: PF Din Text Cond Pro;">Адрес:</h6>
+          <h6 style="color: #f1a213; font-family: PF Din Text Cond Pro;">Адрес:</h6>
           <h6>{{address}}</h6>
           <h6>{{date}}, {{time}}</h6>
             <table style="width:100%">
@@ -202,24 +212,24 @@
   </tr>
   <tr>
     <th rowspan="2">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>УРОВЕНЬ</small></h5>
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>УРОВЕНЬ</small></h5>
     <h6 style="color: green; font-family: PF Din Text Cond Pro Thin;"><small>СРЕДНЯЯ ЯМА</small></h6>
     <h1 style="color: white; font-family: PF Din Text Cond Pro Thin;">{{level}}</h1>
     </th>
-    <td style="color: #6621ca;">
-    <a><h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ШИРИНА</small></h5>
+    <td>
+    <a><h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ШИРИНА</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>СМ</small></h6></a>
     <h3 style="color: white;">{{width}}</h3>
     </td>
-    <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ДЛИНА</small></h5>
+    <td>
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ДЛИНА</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>СМ</small></h6>
     <h3 style="color: white;">{{length}}</h3>
     </td>
   </tr>
   <tr>
-    <td colspan="2" style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ОБЪЕМ</small></h5>
+    <td colspan="2">
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ОБЪЕМ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>СМ3</small></h6>
     <h3 style="color: white;">{{volume}}</h3>
     </td>
@@ -228,30 +238,30 @@
   <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Расходы на ремонт</td>
   </tr>
   <tr>
-    <th rowspan="2" style="color: #6621ca;">
-    <a><h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ОБЩАЯ СУММА</small></h5>
+    <th rowspan="2">
+    <a><h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ОБЩАЯ СУММА</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6></a>
     <h3 style="color: white;">{{money}}</h3>
     </th>
-    <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ШЕБЕНЬ</small></h5>
+    <td>
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ШЕБЕНЬ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{shiben}}</h3>
     </td>
-    <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ПЕСОК</small></h5>
+    <td>
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ПЕСОК</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{sand}}</h3>
     </td>
   </tr>
   <tr>
-    <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>БИТУМ</small></h5>
+    <td>
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>БИТУМ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{bitumen}}</h3>
     </td>
-    <td style="color: #6621ca;">
-    <h5 style="color: #6621ca; font-family: PF Din Text Cond Pro;"><small>ЛЮДИ</small></h5>
+    <td>
+    <h5 style="color: #f1a213; font-family: PF Din Text Cond Pro;"><small>ЛЮДИ</small></h5>
     <h6 style="color: grey; font-family: PF Din Text Cond Pro;"><small>ТГ</small></h6>
     <h3 style="color: white;">{{human}}</h3>
     </td>
@@ -265,7 +275,7 @@
             <img src="../assets/pit2.jpg">
           <h6>Адрес:</h6>
           <h6>{{address}}</h6>
-            
+
         </div>
     </li>
     <li>
@@ -274,7 +284,7 @@
             <img src="../assets/pit3.jpg">
           <h6>Адрес:</h6>
           <h6>{{address}}</h6>
-            
+
         </div>
     </li>
 </ul>
@@ -308,7 +318,7 @@ export default {
       bitumen: '15k',
       human: '150k',
       money: '250k'
-      
+
     }
   }
 }
@@ -316,8 +326,8 @@ export default {
     // Функция ymaps.ready() будет вызвана, когда
     // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
     ymaps.ready(init);
-    function init(){ 
-        // Создание карты.    
+    function init(){
+        // Создание карты.
         var myMap = new ymaps.Map("map", {
             // Координаты центра карты.
             // Порядок по умолчнию: «широта, долгота».
@@ -354,9 +364,9 @@ export default {
 
 
         var myGeoObjects = [];
-        
+
         myGeoObjects[0] = new ymaps.Placemark([51.15772356, 71.47335987],{
-                                clusterCaption: 'Яма 1', 
+                                clusterCaption: 'Яма 1',
                         //balloonContentBody: 'Текст в балуне',
                         balloonContentBody: 'Размер: 1rwwdzdfdfsdfsdfsd m^2, глубина: 15 cm'
                                 },{
@@ -369,9 +379,9 @@ export default {
                                 // её «ножки» (точки привязки).
                                 iconImageOffset: [-3, -42],
                                 });
-        
+
         myGeoObjects[1] = new ymaps.Placemark([51.0887968, 71.4042503],{
-                                clusterCaption: 'Яма 2', 
+                                clusterCaption: 'Яма 2',
                                  // Хинт показывается при наведении мышкой на иконку метки.
                                 balloonContentBody: 'Размер: 3 m^2, глубина: 15 cm'
                                 },{
@@ -383,11 +393,11 @@ export default {
                                 // Смещение левого верхнего угла иконки относительно
                                 // её «ножки» (точки привязки).
                                 iconImageOffset: [-23, -42],
-                           
+
                 });
-        
+
         myGeoObjects[2] = new ymaps.Placemark([51.15912315, 71.48391705],{
-                                clusterCaption: 'Яма 3', 
+                                clusterCaption: 'Яма 3',
                                 //balloonContentBody: 'Текст в балуне',
                                 balloonContentBody: 'Размер: 3 m^2, глубина: 15 cm'
                                 },{
@@ -401,7 +411,7 @@ export default {
                                 iconImageOffset: [-16, -42],
                 });
         myGeoObjects[3] = new ymaps.Placemark([51.158129495987716, 71.55133704994137],{
-                                clusterCaption: 'Яма 3', 
+                                clusterCaption: 'Яма 3',
                                 //balloonContentBody: 'Текст в балуне',
                                 balloonContentBody: 'Размер: 3 m^2, глубина: 15 cm'
                                 },{
@@ -415,7 +425,7 @@ export default {
                                 iconImageOffset: [-16, -42],
                 });
         myGeoObjects[4] = new ymaps.Placemark([51.13264697641801, 71.39649848792969],{
-                                clusterCaption: 'Яма 3', 
+                                clusterCaption: 'Яма 3',
                                 //balloonContentBody: 'Текст в балуне',
                                 balloonContentBody: 'Размер: 3 m^2, глубина: 15 cm'
                                 },{
@@ -429,7 +439,7 @@ export default {
                                 iconImageOffset: [-16, -42],
                 });
         myGeoObjects[5] = new ymaps.Placemark([51.12724632183351, 71.48198585365235],{
-                                clusterCaption: 'Яма 3', 
+                                clusterCaption: 'Яма 3',
                                 //balloonContentBody: 'Текст в балуне',
                                 balloonContentBody: 'Размер: 3 m^2, глубина: 15 cm'
                                 },{
@@ -442,9 +452,9 @@ export default {
                                 // её «ножки» (точки привязки).
                                 iconImageOffset: [-16, -42],
                 });
-        
 
-        
+
+
    var clusterer = new ymaps.Clusterer({
         clusterDisableClickZoom: false,
         clusterOpenBalloonOnClick: false,
@@ -452,7 +462,7 @@ export default {
         clusterBalloonContentLayout: 'cluster#balloonCarousel',
         // Устанавливаем собственный макет.
            //clusterBalloonItemContentLayout: customItemContentLayout,
-           // Устанавливаем режим открытия балуна. 
+           // Устанавливаем режим открытия балуна.
         // В данном примере балун никогда не будет открываться в режиме панели.
         clusterBalloonPanelMaxMapArea: 0,
         // Устанавливаем размеры макета контента балуна (в пикселях).
@@ -540,7 +550,11 @@ th, td {
 }
 .scroll {
   height:570px;
-  border:1px solid #ccc; 
+  border:1px solid #ccc;
   overflow:auto;
+}
+h5 {
+color: #f1a213;
+font-family: PF Din Text Cond Pro;
 }
 </style>
