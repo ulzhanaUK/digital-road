@@ -5,8 +5,6 @@ import App from './App'
 import router from './router'
 import Vuikit from 'vuikit'
 import VuikitIcons from '@vuikit/icons'
-import axios from 'axios'
-import VueAxios from 'vue-axios'
 import moment from "moment";
 import VueMomentJS from "vue-momentjs";
 import axios from 'axios'
@@ -15,8 +13,6 @@ import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 
 Vue.use(VueMomentJS, moment);
-
-Vue.use(VueAxios, axios)
 
 import '@vuikit/theme'
 Vue.use(Vuikit)

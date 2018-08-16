@@ -12,14 +12,14 @@
     <div class="uk-navbar-center">
       <button
         class="switch notes"
-        @click="switchComponent('map')"
-        :disabled="currentComp === 'map'"
-      >notes</button>
+        @click="switchComponent('karta')"
+        :disabled="currentComp === 'karta'"
+      >Map</button>
       <button
         class="switch messages"
         @click="switchComponent('google')"
         :disabled="currentComp === 'google'"
-      >messages</button>
+      >Holes</button>
     </div>
 
 </nav>

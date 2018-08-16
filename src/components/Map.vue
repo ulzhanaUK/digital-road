@@ -313,6 +313,14 @@ export default {
       money: '250k'
 
     }
+  },
+  mounted(){
+    let api = ''
+    this.axios.get(api).then((response) => {
+    console.log(response.data);
+}, (error) => {
+  console.log("error");
+})
   }
 }
 
