@@ -6,7 +6,7 @@
   <vk-sticky><div class="scroll">
     <table style="width:100%">
 <tr>
-  <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Текущие показатели</td>
+  <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Текущие показатели daaa</td>
   </tr>
   <tr>
     <th rowspan="2">
