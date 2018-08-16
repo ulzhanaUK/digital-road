@@ -9,9 +9,17 @@
   </div>
     </div>
 
-    <div class="uk-navbar-right">
-
-
+    <div class="uk-navbar-center">
+      <button
+        class="switch notes"
+        @click="switchComponent('map')"
+        :disabled="currentComp === 'map'"
+      >notes</button>
+      <button
+        class="switch messages"
+        @click="switchComponent('google')"
+        :disabled="currentComp === 'google'"
+      >messages</button>
     </div>
 
 </nav>
@@ -19,6 +27,21 @@
 </template>
 
 <script>
+import { bus } from '../main.js';
+export default {
+    props: {
+        currentComp: {
+            type: String,
+            required: true
+        }
+    },
+
+    methods: {
+        switchComponent(comp) {
+            bus.$emit('switchComp', comp);
+        }
+    }
+}
 const date = document.getElementById('date');
     setInterval(() => {
       const now = moment();
@@ -58,5 +81,33 @@ img {
 #date {
     margin-bottom: 0px;
     color: white;
+}
+button.switch {
+  background: none;
+  border: 1px solid black;
+  margin: 0;
+  cursor: pointer;
+}
+
+button.switch[disabled='disabled'] {
+  color: lightgray;
+  border-color: lightgray;
+}
+
+button.switch:not([disabled='disabled']):hover {
+  background-color: black;
+  border-color: gray;
+  color: lightgray;
+}
+
+button.messages {
+  border-color: #6621ca;
+  color: #6621ca;
+}
+
+
+button.notes {
+  border-color: #eca74c;
+  color: #eca74c;
 }
 </style>

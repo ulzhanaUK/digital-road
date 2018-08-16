@@ -1,12 +1,11 @@
 <template>
 <div>
-<Navbar />
 <div class="columns row">
   <div class="column" style="width:25%; float: left;">
   <vk-sticky><div class="scroll">
     <table style="width:100%">
 <tr>
-  <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Текущие показатели daaa</td>
+  <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Текущие показатели</td>
   </tr>
   <tr>
     <th rowspan="2">
@@ -291,18 +290,12 @@
         </div>
       </div>
     </div>
-<Footer />
+
 </div>
 </template>
 
 <script type="text/javascript">
-import Navbar from '@/components/Navbar.vue'
-import Footer from '@/components/Footer.vue'
 export default {
-  components: {
-    Navbar,
-    Footer
-  },
   data () {
     return {
       width: '0.5',
@@ -495,6 +488,15 @@ myGeoObjects[0].events.add('click', function () {
 body {
   background: black;
 }
+h5 {
+color: #f1a213;
+font-family: PF Din Text Cond Pro;
+}
+h6, h4, h5, h3 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .uk-offcanvas-bar {
   background: none repeat scroll 0% 0%  #000000;
 }
@@ -535,11 +537,6 @@ h3 {
     left: 0;
     text-align: center;
 }
-h6, h4, h5, h3 {
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 table, th, td {
     border: 1px solid #6621ca;
     border-collapse: collapse;
@@ -552,9 +549,5 @@ th, td {
   height:570px;
   border:1px solid #ccc;
   overflow:auto;
-}
-h5 {
-color: #f1a213;
-font-family: PF Din Text Cond Pro;
 }
 </style>
