@@ -176,7 +176,7 @@
 </table>
 </div></vk-sticky>
   </div>
-  <div class="column" style="width:75%; float:right">
+  <div class="column" style="width:75%;">
 <div id="map" style="width: 100%; height: 570px"></div>
 </div>
 
@@ -184,7 +184,7 @@
 
 <div class="uk-offcanvas-content">
 <!-- This is the button toggling the off-canvas sidebar -->
-<button class="uk-button uk-button-default uk-margin-small-right" type="button" style="color:#6621ca" uk-toggle="target: #offcanvas-push">Посмотреть ямы</button>
+<!--<button class="uk-button uk-button-default uk-margin-small-right" type="button" style="color:#6621ca" uk-toggle="target: #offcanvas-push">Посмотреть ямы</button> -->
 
 <!-- or create a new date from 'now'
 <span>{{ new Date() | moment("dddd, MMMM Do YYYY, h:mm:ss a") }}</span>
@@ -343,11 +343,11 @@ export default {
         myMap.controls.remove('typeSelector');
         //myMap.controls.remove('fullscreenControl');
         myMap.controls.remove('searchControl');
-        myMap.events.add('click', function (e) {
+      //  myMap.events.add('click', function (e) {
           // Получение координат щелчка
-          var coords = e.get('coords');
-          alert(coords.join(', '));
-         });
+        //  var coords = e.get('coords');
+        //  alert(coords.join(', '));
+        //});
 
 
         var myButton = new ymaps.control.Button(
@@ -482,10 +482,10 @@ export default {
 
 clusterer.add(myGeoObjects);
 myMap.geoObjects.add(clusterer);
-myGeoObjects[1].events.add('click', function (e) {
-          var coords = e.get('coords');
-          alert(coords.join(', ')+ "Hello pit :)");
-        });
+//myGeoObjects[1].events.add('click', function (e) {
+        //  var coords = e.get('coords');
+        //  alert(coords.join(', ')+ "Hello pit :)");
+        //});
 myGeoObjects[0].events.add('click', function () {
           UIkit.offcanvas('#offcanvas-push').toggle();
         });
@@ -495,6 +495,7 @@ myGeoObjects[0].events.add('click', function () {
 <style>
 body {
   background: black;
+  height: 662px;
 }
 h5 {
 color: #f1a213;

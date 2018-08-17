@@ -1,6 +1,6 @@
 <template>
 <div>
-  <table style="width:100%">
+  <table style="width:99%">
 <tr>
 <td colspan="3" style="background-color:#6621ca; color: white; font-family: PF Din Text Cond Pro;">Текущие показатели</td>
 </tr>
